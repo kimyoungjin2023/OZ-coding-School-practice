@@ -1,0 +1,16 @@
+'''
+환자의 증상을 확인하여 해당하는 처방을 각각 출력하세요.
+발열이 있으면 "해열제 처방", 기침이 있으면 "기침약 처방", 두통이 있으면 "진통제 처방"을 출력하고,해당 증상이 없으면 아무것도 출력하지 않습니다.
+'''
+
+# 여기에 코드 작성
+patient_symptoms = ["발열", "기침", "인후통"]
+
+if "발열" in patient_symptoms:
+  print("해열제 처방")
+
+if "기침" in patient_symptoms:
+  print("기침약 처방")
+
+if "두통" in patient_symptoms:
+  print("진통제 처방")
