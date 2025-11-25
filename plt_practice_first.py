@@ -3,6 +3,14 @@ import matplotlib.pyplot as plt
 # 입력 데이터: 1시간부터 10시간까지 100개의 점으로 부드럽게 표현
 sleep_hours = np.linspace(1, 10, 100)
 
+# 선형 함수 정의: y = -5x + 100
+def stress_linear_model(x):
+    return -5 * x + 100
+print(sleep_hours)
+# 모델로 스트레스 지수 예측
+stress_level = stress_linear_model(sleep_hours)
+stress_level
+
 
 # TODO: 새로운 선형 함수 정의
 def stress_new_linear_model(x):
