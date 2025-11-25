@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # 입력 데이터: 1시간부터 10시간까지 100개의 점으로 부드럽게 표현
 sleep_hours = np.linspace(1, 10, 100)
